@@ -1,0 +1,133 @@
+.performance-graph {
+    margin-bottom: 50px;
+    .performance-graph-item {
+        background: #fff;
+        display: flex;
+        height: 100%;
+        position: relative;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: all .2s;
+        &:hover {
+            border-radius: $generalBorderRadius;
+            background: #f2f2f2;
+            box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.46);
+        }
+        .status-bar-background {
+            background: #ededed;
+            box-shadow: inset 0 0 6px -3px $color-grey-dark;
+            border-radius: $generalBorderRadius;
+            width: 100%;
+            position: absolute;
+            height: 15px;
+            margin-top: 12px;
+        }
+        .status-bar {
+            height: 15px;
+            background: #E23939;
+            display: block;
+            position: relative;
+            float: left;
+            margin-top: 12px;
+            transition: width .6s ease;
+            border-radius: $generalBorderRadius;
+        }
+        p {
+            margin: 11px 0 11px 25px;
+            color: $color-grey-dark;
+        }
+        .PerformanceGraphIcon {
+            float: left;
+            height: 40px;
+            width: 40px;
+            z-index: 5;
+            position: absolute;
+        }
+        &:before,
+        &:after {
+            content: " ";
+            display: table;
+            clear: both;
+        }
+    }
+    .padding-cero {
+        padding: 0
+    }
+    .container-bar {
+        height: 40px;
+        margin: 5px 0;
+    }
+    .container-line-vertical {
+        position: absolute;
+        width: 100%;
+        .line-vertical {
+            float: left;
+            width: 10%;
+            border-right: dotted rgba(81, 69, 79, 0.36) 2px;
+        }
+        .line-graph-where-should-i-be,
+        .line-graph-goal {
+            float: left;
+            width: 10px;
+            position: absolute;
+            z-index: 5;
+        }
+        .line-graph-where-should-i-be-icon,
+        .line-graph-goal-icon {
+            float: left;
+            position: absolute;
+            margin-top: -58px;
+            z-index: 5;
+        }
+        .graph-where-should-i-be-text,
+        .line-graph-goal-text {
+            @extend %font-p-sm;
+            font-weight: 600;
+            float: left;
+            position: absolute;
+            margin-top: -25px;
+            z-index: 5;
+            text-align: center;
+        }
+        .graph-where-should-i-be-text {
+            width: 200px;
+        }
+        .line-graph-goal-text {
+            width: 100px;
+        }
+        .line-graph-where-should-i-be {
+            background-color: $color-main;
+            box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.47);
+        }
+        .line-graph-goal {
+            background-color: #5fd8c5;
+            box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.47);
+        }
+    }
+    .percentage {
+        margin-left: 12.3%;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: block;
+        width: 84.4%;
+        color: $color-grey-dark;
+        p {
+            font-weight: 600;
+            float: left;
+            width: calc(100% / 11);
+            text-align: center;
+            &:nth-child(even) {
+                opacity: 0.5
+            }
+        }
+    }
+    p.percentage-text {
+        @extend %font-p-xs;
+        font-weight: 700;
+    }
+    .boy-run {
+        overflow: visible;
+    }
+}

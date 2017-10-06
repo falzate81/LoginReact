@@ -1,0 +1,146 @@
+.subject-description {
+    border-bottom: solid 1px #dcdcdc;
+    h3 {
+        font-weight: 500;
+        margin-bottom: 0px;
+        span {
+            color: #53aa0f;
+            font-weight: 900;
+        }
+    }
+    p {
+        @extend %font-p-sm;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #646464;
+        span {
+            font-weight: 700;
+        }
+    }
+    .container-area-theme h3 {
+        margin-top: 0px;
+    }
+    .container-area,
+    .progress-percentage,
+    .goals-subject,
+    .active-date,
+    .active-piles,
+    .subject-buttons {
+        margin-top: 9px;
+        padding-left: 27px;
+        min-height: 80px;
+    }
+    .container-area,
+    .progress-percentage,
+    .active-data {
+        border-right: solid 1px #dcdcdc;
+    }
+    .container-subject-icon {
+        border-left: solid 1px #dcdcdc;
+        border-right: solid 1px #dcdcdc;
+        .subject-icon {
+            margin: 25px auto;
+            height: 49px;
+        }
+    }
+    .progress-percentage {
+        h3 {
+            float: left;
+            margin-left: 18px;
+            margin-top: 17px;
+        }
+        span.destacado {
+            @extend %font-h1-md;
+            font-weight: 900;
+        }
+        span.icon-description {
+            float: left;
+        }
+    }
+    .active-date {
+        border-right: solid 1px #dcdcdc;
+        padding-top: 2px;
+        svg,
+        p {
+            float: left;
+        }
+        p {
+            margin-top: 2px;
+        }
+        svg {
+            margin-top: 5px;
+        }
+        &.col-xs-custom-2-and-half {
+            float: left;
+            width: 12.5%;
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .container-area-theme {
+        padding-top: 6px;
+        svg,
+        p {
+            float: left;
+        }
+        p {
+            margin-top: 2px;
+            clear: left;
+        }
+        svg {
+            margin-top: 5px;
+        }
+        &.col-xs-custom-6-and-half {
+            float: left;
+            width: 54.1666%;
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .active-piles {
+        border-right: solid 1px #dcdcdc;
+        padding-top: 15px;
+        svg,
+        p {
+            float: left;
+        }
+    }
+    .subject-buttons {
+        padding-top: 15px;
+        cursor: pointer;
+        svg {
+            float: left;
+        }
+        svg.upload,
+        svg.check {
+            margin-left: 20px;
+        }
+        svg.check {
+            margin-top: 9px;
+        }
+        svg.upload {
+            margin-top: 9px;
+        }
+    }
+    .progress-percentage-icon {
+        float: left;
+        margin-top: 19px;
+    }
+    .goals-subject {
+        h4 {
+            @extend %font-p-md;
+            padding-top: 25px;
+            color: #53aa0f;
+            margin: 0;
+            padding-bottom: 36px;
+            float: left;
+        }
+        &.active h4 {
+            border-bottom: solid #53aa0f 1px;
+        }
+    }
+}

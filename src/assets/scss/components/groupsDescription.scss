@@ -1,0 +1,38 @@
+.groups-description {}
+
+.groups-description-content {
+    padding-bottom: 60px;
+    border-bottom: solid 1px #dcdcdc;
+    h1 {
+        @extend %font-h3;
+        margin-top: 30px;
+    }
+    p {
+        @extend %font-p-md;
+        line-height: 26px;
+    }
+    .image-group {
+        margin-top: 25px;
+    }
+}
+
+.groups-goals-content {
+    h1 {
+        @extend %font-h3;
+        margin-top: 30px;
+    }
+}
+
+.groups-goals-header {
+    background-color: #f8f8f8;
+    .label-icon {
+        padding: 0;
+        svg {
+            margin: auto;
+            margin: 15px auto 15px;
+        }
+    }
+    p{
+        margin: 10px 0;
+    }
+}

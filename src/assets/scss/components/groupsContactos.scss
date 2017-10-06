@@ -1,0 +1,65 @@
+.groups-contactos {
+    h1 {
+        @extend %font-h3;
+        float: left;
+        margin-top: 30px;
+    }
+    .addMember {
+        cursor: pointer;
+        float: right;
+        @extend %font-p-sm;
+        svg {
+            float: left;
+            margin-top: 21px;
+            margin-right: 8px;
+        }
+        p {
+            float: right;
+            color: #53aa0f;
+             &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .members {
+        padding: 0 60px;
+        h3 {
+            float: left;
+            margin-bottom: 3px;
+        }
+        p {
+            @extend %font-p-sm;
+            color: #999999;
+            clear: left;
+        }
+        .photo-profile {
+            border-radius: 100%;
+            overflow: hidden;
+            float: left;
+            width: 100px;
+            height: 100px;
+        }
+        .profile-card {
+            margin-top: 30px;
+            height: 106px;
+            .data {
+                border-bottom: dashed #bebebe 1px;
+                padding-bottom: 30px;
+                margin-left: 25px;
+                display: block;
+                float: left;
+                width: calc(100% - 141px);
+                height: 100px;
+                h3 {
+                    font-weight: 500;
+                }
+            }
+            .online-border {
+                display: table;
+                border-radius: 100%;
+                padding: 3px;
+                float: left;
+            }
+        }
+    }
+}

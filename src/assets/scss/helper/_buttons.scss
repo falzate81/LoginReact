@@ -1,0 +1,58 @@
+.button-new {
+    @extend %font-p-sm;
+    display: block;
+    background-color: $color-main;
+    color: $color-white;
+    float: left;
+    padding: 6px 42px;
+    border-radius: 3px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 12px 0px rgba(0, 0, 0, 0.15);
+    transition: all .3s ease-in-out;
+    position: relative;
+    &:hover {
+        box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+        /* transition: opacity 0.3s ease-in-out; */
+    }
+}
+
+.menu-new {
+    display: block;
+    clear: both;
+    position: absolute;
+    background: $color-white;
+    width: 100%;
+    top: 40px;
+    border: 1px solid #d1d1d1;
+    z-index: 2;
+    .menu-new-item {
+        display: table;
+        width: 100%;
+        border-bottom: 1px #dcdcdc solid;
+        cursor: pointer;
+        span.isvg,
+        p {
+            float: left;
+        }
+        span.isvg {
+            margin-top: 15px;
+            margin-left: 11px;
+            clear: left;
+        }
+        p {
+            @extend %font-p-sm;
+            margin-top: 15px;
+            margin-left: 9px;
+            margin-bottom: 8px;
+            color: #999999;
+        }
+        &:last-of-type {
+            border-bottom: 0;
+        }
+        &:hover {
+            background: #f0f0f0;
+        }
+    }
+}

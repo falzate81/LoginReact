@@ -1,0 +1,11 @@
+{
+    "profile": {
+        "id": "be1048a0-2dcd-4fb6-81e3-72eaba06c246",
+        "name": "Juanita Isabel Navarro Vargas",
+        "birthday": "2000/1/1",
+        "location": {
+            "country": "Colombia",
+            "city": "Bogota"
+        }
+    }
+}

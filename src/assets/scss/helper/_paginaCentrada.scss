@@ -1,0 +1,20 @@
+body.pagina-centrada {
+	background-color: rgba(231, 231, 231, 0.33);
+	height: 100%;
+	div.fullpage {
+		display: table;
+		height: calc(100% - 135px - 80px);
+		width: 100%;
+		overflow: hidden;
+	}
+	.section {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.contenido {
+		background-color: $color-blanco;
+		margin: 30px auto;
+		padding: 20px 0;
+		border-radius: $generalBorderRadius;
+	}
+}

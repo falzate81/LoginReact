@@ -1,0 +1,27 @@
+// Variables
+@import "helper/variables";
+
+// Dependencies
+@import "dependencies/bootstrap";
+
+// Helper
+@import "helper/text";
+@import "helper/general";
+@import "helper/buttons";
+@import "helper/formSearch";
+
+// Components
+@import "components/MainMenu";
+@import "components/card";
+@import "components/stars";
+@import "components/subjectUnit";
+@import "components/subjectDescription";
+@import "components/commentsList";
+@import "components/searchBar";
+@import "components/userInformation";
+@import "components/footer";
+@import "components/performanceGraphItem";
+@import "components/stageBar";
+@import "components/groupsContactos";
+@import "components/groupsDescription";
+@import "components/works";

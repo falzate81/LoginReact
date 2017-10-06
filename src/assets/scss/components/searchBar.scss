@@ -1,0 +1,27 @@
+.logo {
+    margin: 15px 15px 15px 0;
+}
+
+.search-bar {
+    background-color: $color-grey-light;
+    @extend %formSearch;
+    .language-container {
+        float: right;
+        padding: 17px 0 15px 25px;
+        .icon-language {
+            font-weight: 400;
+            border-right: solid 2px #aaa;
+            padding-right: 3px;
+            margin-right: 5px;
+            margin-top: 0px;
+            float: left;
+            &:last-child {
+                border-right: 0px;
+            }
+            &.active {
+                font-weight: 600;
+            }
+            @extend %font-p-xs;
+        }
+    }
+}

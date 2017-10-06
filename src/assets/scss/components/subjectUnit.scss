@@ -1,0 +1,26 @@
+.subject-unit {
+    .qualify-stars {
+        .container-stars {
+            margin-top: 25px;
+        }
+        p,
+        .container-stars {
+            float: right;
+            text-align: right;
+            svg.start {
+                width: 19px;
+            }
+        }
+    }
+    .unit-content {
+        h1 {
+            @extend %font-h1-md;
+        }
+    }
+    .carousel {
+        background-color: #53AA0F;
+        img {
+            margin: auto;
+        }
+    }
+}

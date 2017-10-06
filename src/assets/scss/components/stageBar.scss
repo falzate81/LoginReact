@@ -1,0 +1,26 @@
+.stage-bar {
+    border-bottom: solid 1px #dcdcdc;
+    background-color: #f8f8f8;
+    svg {
+        overflow: visible;
+        margin: auto;
+    }
+    .comments,
+    .stage {
+        padding: 20px 0 15px;
+    }
+    .comments {
+        cursor: pointer;
+        border-left: solid 1px #dcdcdc;
+        padding-top: 15px;
+        p {
+            @extend %font-p-sm;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    }
+    .comments:hover {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+}

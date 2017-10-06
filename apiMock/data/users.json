@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Pepita",
+      "lastName": "Vargas",
+      "email": "pepita@algo.com",
+      "birthday": "",
+      "genre": "femeninno",
+      "rutaFoto": "",
+      "state": "activo",
+      "escuelaId": 1,
+      "password": "Abc123"
+    },
+    {
+      "id": 2,
+      "name": "Maritza",
+      "lastName": "Zuleta",
+      "email": "maritza@algo.com",
+      "birthday": "",
+      "genre": "femeninno",
+      "rutaFoto": "",
+      "state": "activo",
+      "escuelaId": 1,
+      "password": "Abc123"
+    },
+    {
+      "id": 3,
+      "name": "Felipe",
+      "lastName": "Aguirre",
+      "email": "felipe@algo.com",
+      "birthday": "",
+      "genre": "masculino",
+      "rutaFoto": "",
+      "state": "activo",
+      "escuelaId": 1,
+      "password": "Abc123"
+    }
+  ]
+}
